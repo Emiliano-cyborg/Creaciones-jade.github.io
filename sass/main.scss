@@ -417,7 +417,7 @@ $color-texto: #333;
 .footer {
   background-color: $color-rosa-claro;
   padding: 20px;
-  position: static;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;

@@ -324,7 +324,7 @@ span {
 .footer {
   background-color: #ffd1dc;
   padding: 20px;
-  position: static;
+  position: sticky;
   bottom: 0;
   left: 0;
   right: 0;
