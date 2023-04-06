@@ -261,8 +261,7 @@ span {
   align-items: center;
   justify-content: space-between;
 }
-
-.card-duende {
+.productoss .card-duende {
   max-width: 600px;
   min-width: 600px;
   display: flex;
@@ -277,25 +276,21 @@ span {
   cursor: default;
   transition: all 400ms ease;
 }
-
-.card-duende:hover {
-  box-shadow: 5px 6px 20px #2a2a2b;
-  transform: translateY(-3%);
-}
-
-.card-duende img {
+.productoss .card-duende img {
   width: auto;
   height: 500px;
 }
-
-.card-duende .contenido {
+.productoss .card-duende .contenido {
   padding: 15px;
   text-align: center;
 }
-
-.card-duende .contenido p {
+.productoss .card-duende p {
   line-height: 1.6;
   color: #1b3039;
+}
+.productoss .card-duende:hover {
+  box-shadow: 5px 6px 20px #2a2a2b;
+  transform: translateY(-3%);
 }
 
 /* Comienza Footer */
