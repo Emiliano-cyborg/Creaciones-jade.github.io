@@ -101,41 +101,37 @@ body .header .btn button:hover {
 }
 
 /* Grid INICIO */
-.grid-inicio {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-.grid-inicio .inicio-flex {
-  max-width: 600px;
-  min-width: 600px;
+.galeria {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-bottom: 15px;
-  margin-top: 17px;
-  border-radius: 6px;
-  background: rgb(199, 130, 231);
-  box-shadow: 0px 1px 10px #d19ed3;
-  cursor: default;
-  transition: all 400ms ease;
+  gap: 20px;
 }
-.grid-inicio .inicio-flex .img {
-  width: auto;
-  height: 500px;
-}
-.grid-inicio .inicio-flex .contenido {
-  padding: 15px;
+
+.tarjeta {
+  width: 300px;
+  background-color: #ebc0fd;
+  padding: 20px;
   text-align: center;
 }
-.grid-inicio .inicio-flex .contenido p {
-  line-height: 1.6;
-  color: #1b3039;
+.tarjeta img {
+  width: 100%;
+  max-height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
 }
-.grid-inicio .inicio-flex:hover {
+.tarjeta h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.tarjeta p {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #777;
+}
+
+.tarjeta:hover {
   box-shadow: 5px 6px 20px #2a2a2b;
   transform: translateY(-3%);
 }
@@ -144,7 +140,7 @@ body .header .btn button:hover {
 .contenedor {
   height: auto;
   width: 100%;
-  background-color: #abd0e0;
+  background-color: #e6adee;
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -200,7 +196,10 @@ body .header .btn button:hover {
   outline: none;
   background: transparent;
 }
-.contenedor .form .grupo-input .input-iniciar .submit-btn {
+.contenedor .form .grupo-input .input-iniciar .checkbox {
+  margin: 30px 10px 30px 0;
+}
+.contenedor .form .grupo-input .submit-btn {
   width: 85%;
   padding: 10px 30px;
   cursor: pointer;
@@ -211,35 +210,63 @@ body .header .btn button:hover {
   outline: none;
   border-radius: 30px;
 }
-.contenedor .form .grupo-input .input-iniciar .checkbox {
-  margin: 30px 10px 30px 0;
-}
 
 span {
-  color: #abd0e0;
+  color: #c7a8f4;
   font-size: 20px;
   bottom: 6px;
 }
 
 /* TERMINA "INGRESAR" */
 /* COMIENZA "COMO COMPRAR" */
-.contenedor {
-  height: auto;
-  width: 100%;
-  background-color: #000000;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  align-items: center;
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #8cb4c5;
+  border-radius: 50px;
 }
-.contenedor .instrucciones {
-  width: 370px;
-  height: 455px;
-  position: relative;
-  margin: 6% auto;
-  background-color: #e79ecf;
-  padding: 5px;
-  border-radius: 10px;
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e6a6ea;
+  margin-bottom: 20px;
+}
+
+.paso {
+  margin-bottom: 20px;
+}
+
+.paso-numero {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e6a6ea;
+}
+
+.paso-instruccion {
+  font-size: 16px;
+  color: #333;
+}
+
+.numero-codigo {
+  font-size: 18px;
+  color: #333;
+}
+
+.numero-contacto {
+  font-size: 18px;
+  color: #333;
+}
+
+.metodo-pago {
+  font-size: 18px;
+  color: #333;
+}
+
+.metodo-entrega {
+  font-size: 18px;
+  color: #333;
 }
 
 /* COMIENZA CONTACTO */
@@ -294,12 +321,46 @@ span {
 }
 
 /* Comienza Footer */
-footer {
+.footer {
+  background-color: #ffd1dc;
+  padding: 20px;
   position: static;
-  left: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
-  background-color: rgba(197, 112, 190, 0.8470588235);
-  color: white;
+}
+.footer section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.footer section .contacto-tel,
+.footer section .contacto-email {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+.footer p {
+  margin: 0;
+  font-size: 12px;
+  color: #333;
   text-align: center;
+}
+.footer:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #ffb3c3;
+}
+.footer::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #ff9cb9;
+  margin-top: 2px;
 }/*# sourceMappingURL=main.css.map */
