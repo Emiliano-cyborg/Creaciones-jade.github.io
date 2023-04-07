@@ -1,10 +1,11 @@
-# PreEntrega2Arias
+Pre-Entrega 
 
-Realice varios cambios en el navbar, tuve complicaciones copiando el codigo del navbar de inicio en las otras paginas por eso 
-hice otro
+Arias
+
+Puse el Codigo en Vercel para que se suba a la nube 
+
+Hice varios retoques en el diseño y el codigo pero nada importante.
 
 
-trate de que quede lo mejor posible, se que tengo que hacer correciones del nav de las otras paginas para el media querie.
+Entrego en fecha y forma. Un Saludo y Gracias
 
-
-Muchas gracias 
