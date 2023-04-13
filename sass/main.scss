@@ -405,6 +405,54 @@ justify-content: space-between;
 }
 
 
+$color-rosa-claro: #ffd1dc;
+$color-rosa-medio: #ffb3c3;
+$color-rosa-oscuro: #ff9cb9;
+$color-texto: #333;
+
+.quienes-somos {
+   background-color: #ffd1dc;
+   padding: 40px;
+   border-radius: 5px;
+ }
+ 
+ .quienes-somos .quienes-somos-titulo {
+   font-size: 24px;
+   color: #ff9cb9;
+   margin-bottom: 20px;
+ }
+ 
+ .quienes-somos .quienes-somos-descripcion {
+   font-size: 16px;
+   color: #333;
+   line-height: 1.5;
+   margin-bottom: 20px;
+ }
+ 
+ .quienes-somos .quienes-somos-descripcion br {
+   display: none;
+ }
+ 
+ .quienes-somos .quienes-somos-cta {
+   font-size: 185px;
+   color: #ff9cb9;
+ }
+ 
+ .quienes-somos .quienes-somos-cta a {
+   color: #ff9cb9;
+   text-decoration: none;
+ }
+ 
+ .quienes-somos .quienes-somos-cta a:hover {
+   color: #ffb3c3;
+ }
+ 
+ 
+ 
+ 
+
+
+
 
 
 /* Comienza Footer */
