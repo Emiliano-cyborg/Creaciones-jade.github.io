@@ -270,14 +270,26 @@ span {
 }
 
 /* COMIENZA CONTACTO */
+/* Estilos personalizados */
 .contacto-box {
-  width: 370px;
-  height: 455px;
-  position: relative;
-  margin: 6% auto;
-  background-color: #ebacac;
-  padding: 5px;
-  border-radius: 10px;
+  background-color: #fde8e8;
+  padding: 20px;
+  border-radius: 15px;
+}
+.contacto-box .ul {
+  list-style-type: none;
+  padding: 0;
+  text-decoration: none;
+}
+.contacto-box .ul .li {
+  margin-bottom: 10px;
+}
+.contacto-box .ul .rosa:hover {
+  color: #ff4081;
+}
+.contacto-box .ul .rosa {
+  color: #e91e63;
+  text-decoration: none;
 }
 
 /* Comienza Productos */
@@ -320,47 +332,58 @@ span {
   transform: translateY(-3%);
 }
 
+.quienes-somos {
+  background-color: #8cb4c5;
+  padding: 40px;
+  border-radius: 5px;
+}
+.quienes-somos .quienes-somos-titulo {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.quienes-somos .quienes-somos-descripcion {
+  font-size: 20px;
+  color: #535353;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.quienes-somos .quienes-somos-descripcion br {
+  display: none;
+}
+.quienes-somos .quienes-somos-cta {
+  font-size: 20px;
+  color: #b3697f;
+  font-weight: 700;
+}
+.quienes-somos .quienes-somos-cta a {
+  color: #ff9cb9;
+  text-decoration: none;
+}
+.quienes-somos .quienes-somos-cta a:hover {
+  color: #ffb3c3;
+}
+
 /* Comienza Footer */
 .footer {
-  background-color: #ffd1dc;
-  padding: 20px;
-  position: sticky;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
+  background-color: #faf8fa;
+  padding: 20px 0;
 }
-.footer section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-.footer section .contacto-tel,
-.footer section .contacto-email {
+
+.contacto-tel,
+.contacto-email {
   margin: 0;
-  font-size: 18px;
-  color: #333;
 }
-.footer p {
-  margin: 0;
-  font-size: 12px;
-  color: #333;
-  text-align: center;
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
-.footer:after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: #ffb3c3;
+
+hr {
+  margin: 10px 0;
 }
-.footer::before {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: #ff9cb9;
-  margin-top: 2px;
+
+p {
+  margin-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
