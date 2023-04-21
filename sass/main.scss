@@ -277,14 +277,10 @@ span{
 /* COMIENZA "COMO COMPRAR" */
 
 
-// Estilos para la página de "Cómo comprar"
-
-// Variables
 $color-primario: #e6a6ea;
 $color-fondo: #8cb4c5;
 $color-texto: #333;
 
-// Contenedor principal
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -293,7 +289,7 @@ $color-texto: #333;
   border-radius: 50px;
 }
 
-// Título
+
 .titulo {
   font-size: 24px;
   font-weight: bold;
@@ -301,7 +297,7 @@ $color-texto: #333;
   margin-bottom: 20px;
 }
 
-// Pasos
+
 .paso {
   margin-bottom: 20px;
 }
@@ -317,25 +313,25 @@ $color-texto: #333;
   color: $color-texto;
 }
 
-// Número de código
+
 .numero-codigo {
   font-size: 18px;
   color: $color-texto;
 }
 
-// Número de contacto
+
 .numero-contacto {
   font-size: 18px;
   color: $color-texto;
 }
 
-// Método de pago
+
 .metodo-pago {
   font-size: 18px;
   color: $color-texto;
 }
 
-// Método de entrega
+
 .metodo-entrega {
   font-size: 18px;
   color: $color-texto;
@@ -346,7 +342,7 @@ $color-texto: #333;
 
 /* COMIENZA CONTACTO */
 
-/* Estilos personalizados */
+
 .contacto-box {
   background-color: #fff;
   border-radius: 10px;
